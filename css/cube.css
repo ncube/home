@@ -1,0 +1,101 @@
+.cubewrap {
+	position: absolute;
+	width: 100%;
+}
+
+#cube {
+	width: 335px;
+	height: 315px;	
+	margin: 180px auto;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+
+.path {
+	fill: #0089f7;
+}
+
+.group:hover .path {
+	fill: #ff4135;
+}
+
+svg {
+	width: 335px;
+	height: 315px;
+	margin-left: 5px;
+}
+
+.right_hover, .left_hover, .top_hover {
+	display: none;
+}
+
+.top {	
+	fill: #4286F3;
+}
+
+.left {	
+	fill: #EB4537;
+}
+
+.right {
+	fill: #5aca00;
+}
+
+.right:hover {
+	fill: #53ba00;
+	cursor: pointer;
+}
+
+.top:hover {
+	fill: #0279db;
+	cursor: pointer;
+}
+
+.top:active {
+	fill: #0279db;
+	cursor: pointer;
+}		
+
+.left:hover {
+	fill: #e03a2f;
+	cursor: pointer;
+}
+
+.base {	
+	fill:  #E5E7E9;
+}
+
+.arrow_blue, .arrow_green, .arrow_red {
+	position: absolute;
+	width: 150px;
+}
+.arrow_blue {	
+	margin: -50px 0 0 255px; /*top,bottom,left,right*/	
+}
+.arrow_green {	
+	margin: 230px 0 0 270px;
+}
+.arrow_red {	
+	margin: 30px 0 0 -130px;
+}
+
+#edu {
+	position: absolute;
+	margin: 46px 0 0 390px;
+	color: #4286F3;
+	font-family: fontastique;
+}
+
+#soft {
+	position: absolute;
+	margin: 120px 0 0 -250px;
+	color: #EB4537;
+	font-family: fontastique;
+}
+
+#comm {
+	position: absolute;
+	margin: 250px 0 0 400px;
+	color: #5aca00;
+	font-family: fontastique;
+}

@@ -1,0 +1,79 @@
+html, body {
+	margin:0;
+	padding:0;
+	font-family: 'ARS Maquette';
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	width: 100%;
+	z-index: 100;
+}
+
+#logo {
+	float: left;
+	margin-left: 50px;
+	margin-top: 15px;
+	width: 50px;
+	height: 45px;
+}
+
+.title {   
+   font-family: "fontastique";
+   font-style: normal;
+   font-size: 27px;
+   color: dimgray;
+   float: left;
+   position: absolute;
+   margin-left: 120px;
+   margin-top: 24px;
+}
+
+.search {
+	background-color: transparent;
+	border: none;
+	border-bottom: 3px solid;
+    font-size: 20px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	color: black;
+	border-color: darkmagenta;
+	float: right;
+	margin-right: 90px;
+	margin-top: 26px;
+	outline: 0;
+	font-family: 'ARS Maquette';
+	font-weight: 500;
+	text-decoration: none;	
+}
+
+#loader {
+	position: absolute;
+	margin-top: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+.cc {
+	font-family: cc;
+}
+
+#footer {
+	background-color: #fbbc05;	
+	height: 32px;
+	padding-top: 10px;
+	position: fixed;	
+	text-align: center;
+	width: 100%;
+	font-family: 'ubuntu light';
+	bottom: 0px;	
+}
+
+.footer_items {
+	color: saddlebrown;
+}
