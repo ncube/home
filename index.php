@@ -20,7 +20,25 @@
 				<img src="images/logo.svg" id="logo" alt="">
 				<h1 class="title">NCube School of Knowledge</h1>
 				<input type="search" class="search" placeholder="Search here..!" />
-			</div>			
+			</div>
+			<div id="block" style="text-align: center;">
+				<div class="results">
+					Results are displayed here
+				</div>
+				<div class="results">
+					Results are displayed here
+				</div>				
+				<div class="results">
+					Results are displayed here
+				</div>
+				<div class="results">
+					Results are displayed here
+				</div>
+				<div class="results">
+					Results are displayed here
+				</div>
+				<img src="images/Preloader_3.gif" style="width: 50px;height:50px;"/>				
+			</div>
 			<div id="cube">
 				<img src="images/arrow/arrow_right_bottom.svg" class="arrow_blue" alt="Blue Arrow"/>
 				<h2 id="edu">Education</h2>				
@@ -47,6 +65,7 @@
 		document.onkeydown = function(evt) {
 			evt = evt || window.event;
 			if (evt.keyCode == 27) {
+				resetme();
 				reset_cube();
 			}
 		};
@@ -54,7 +73,24 @@
 			var id = event.target.id;
 			var class_name = event.target.className;
 			cube_event_handler(id);
-		}
+			if (class_name == 'search') {
+				e_search = document.getElementsByClassName('search')[0];
+				e_search.style.width = '600px';
+				document.getElementById('block').style.display = 'block';
+				document.getElementById('cube').style.display = 'none';
+				document.getElementById('footer').style.display = 'none';
+			}
+			if (class_name == 'cube_wrap') {
+				resetme();
+			}
+			}
+			function resetme() {
+				e_search = document.getElementsByClassName('search')[0];
+				e_search.style.width = '';
+				document.getElementById('block').style.display = 'none';
+				document.getElementById('cube').style.display = 'block';
+				document.getElementById('footer').style.display = 'block';
+			}		
 	</script>	
 	<script src="js/cube.js"></script>
 </html>
