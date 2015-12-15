@@ -64,7 +64,7 @@ a {
 }
 
 #footer {
-	background-color: #fbbc05;	
+	background-color: #352f2f;	
 	height: 32px;
 	padding-top: 10px;
 	position: fixed;	
@@ -75,7 +75,7 @@ a {
 }
 
 .footer_items {
-	color: saddlebrown;
+	color: white;
 }
 
 #block {
