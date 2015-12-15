@@ -17,8 +17,8 @@
 	<body onload="display()" onclick="event_handler(event)">
 		<div class="cubewrap" id="body">
 			<div class="header">
-				<img src="images/logo.svg" id="logo" alt="">
-				<h1 class="title">NCube School of Knowledge</h1>
+				<a href="index.php"><img src="images/logo.svg" id="logo" alt="Logo"></a>
+				<a href="index.php"><h1 class="title">NCube School of Knowledge</h1></a>
 				<input type="search" class="search" placeholder="Search here..!" />
 			</div>
 			<div id="block" style="text-align: center;">
@@ -48,12 +48,12 @@
 				<h2 id="soft">Softwares</h2>
 				<?php include 'images/cube.svg'; ?>
 			</div>
-			<footer id="footer">
+			<footer id="footer_home">
 				<strong>
 					<a class="footer_items"><span class="cc">c </span>ncubeschool.org &nbsp &nbsp</a>
-					<a href="#" class="footer_items">About Us &nbsp &nbsp</a>
-					<a href="#" class="footer_items">Open Source &nbsp &nbsp</a>
-					<a href="#" class="footer_items">Developers </a>
+					<a href="about.php" class="footer_items">About Us &nbsp &nbsp</a>					
+					<a href="#" class="footer_items">Developers &nbsp &nbsp</a>
+					<a href="#" class="footer_items">Privacy </a>
 				</strong>
 			</footer>
 		</div>
@@ -76,9 +76,9 @@
 			if (class_name == 'search') {
 				e_search = document.getElementsByClassName('search')[0];
 				e_search.style.width = '600px';
-				document.getElementById('block').style.display = 'block';
-				document.getElementById('cube').style.display = 'none';
-				document.getElementById('footer').style.display = 'none';
+				showme('block');
+				hideme('cube');
+				hideme('footer_home');
 			}
 			if (class_name == 'cube_wrap') {
 				resetme();
@@ -87,9 +87,9 @@
 			function resetme() {
 				e_search = document.getElementsByClassName('search')[0];
 				e_search.style.width = '';
-				document.getElementById('block').style.display = 'none';
-				document.getElementById('cube').style.display = 'block';
-				document.getElementById('footer').style.display = 'block';
+				hideme('block');
+				showme('cube');
+				showme('footer_home');
 			}		
 	</script>	
 	<script src="js/cube.js"></script>

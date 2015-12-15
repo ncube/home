@@ -6,6 +6,7 @@ html, body {
 
 a {
 	text-decoration: none;
+	color: white;
 }
 
 .header {
@@ -66,12 +67,22 @@ a {
 #footer {
 	background-color: #352f2f;	
 	height: 32px;
+	padding-top: 10px;		
+	text-align: center;
+	width: 100%;
+	font-family: 'ubuntu light';
+	bottom: 0px;	
+}
+
+#footer_home {
+	background-color: #352f2f;	
+	height: 32px;
 	padding-top: 10px;
 	position: fixed;	
 	text-align: center;
 	width: 100%;
 	font-family: 'ubuntu light';
-	bottom: 0px;	
+	bottom: 0px;
 }
 
 .footer_items {
@@ -94,4 +105,30 @@ a {
 	height: auto;
 	margin: 20px auto;
 	padding: 20px;
+}
+
+.content {
+	width: 100%;
+	height: auto;	
+	margin: 85px auto;
+	margin-bottom: 0px;
+	overflow: hidden;
+	background-color: #DE5833;
+	padding-bottom: 50px;
+}
+
+.heading {
+	margin-left: 50px;
+	margin-right: 50px;
+	color: whitesmoke;	
+}
+
+.main_content {
+	margin-left: 50px;
+	margin-right: 50px;
+	color: white;
+}
+
+.underline:hover {
+	text-decoration: underline;
 }
