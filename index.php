@@ -51,7 +51,7 @@
 			<footer id="footer_home">
 				<strong>
 					<a class="footer_items"><span class="cc">c </span>ncubeschool.org &nbsp &nbsp</a>
-					<a href="about.php" class="footer_items">About Us &nbsp &nbsp</a>					
+					<a href="about.php" class="footer_items">About Us &nbsp &nbsp</a>
 					<a href="#" class="footer_items">Developers &nbsp &nbsp</a>
 					<a href="#" class="footer_items">Privacy </a>
 				</strong>
@@ -76,9 +76,10 @@
 			if (class_name == 'search') {
 				e_search = document.getElementsByClassName('search')[0];
 				e_search.style.width = '600px';
+				e_header = document.getElementsByClassName('header')[0];
+				e_header.style.position = 'fixed';
 				showme('block');
-				hideme('cube');
-				hideme('footer_home');
+				document.getElementById('cube').style.marginTop = '170px';				
 			}
 			if (class_name == 'cube_wrap') {
 				resetme();
@@ -87,9 +88,10 @@
 			function resetme() {
 				e_search = document.getElementsByClassName('search')[0];
 				e_search.style.width = '';
-				hideme('block');
-				showme('cube');
-				showme('footer_home');
+				e_header = document.getElementsByClassName('header')[0];
+				e_header.style.position = '';
+				document.getElementById('cube').style.marginTop = '';
+				hideme('block');				
 			}		
 	</script>	
 	<script src="js/cube.js"></script>

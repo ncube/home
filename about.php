@@ -118,9 +118,11 @@
 			if (class_name == 'search') {
 				e_search = document.getElementsByClassName('search')[0];
 				e_search.style.width = '600px';
+				e_header = document.getElementsByClassName('header')[0];
+				e_header.style.position = 'fixed';
+				e_content = document.getElementsByClassName('content')[0];
+				e_content.style.marginTop = "85px";
 				showme('block');
-				c_hideme('content');
-				hideme('footer');
 			}
 			if (class_name == 'cube_wrap') {
 				resetme();
@@ -129,9 +131,11 @@
 			function resetme() {
 				e_search = document.getElementsByClassName('search')[0];
 				e_search.style.width = '';
-				hideme('block');
-				c_showme('content');				
-				showme('footer');
+				e_header = document.getElementsByClassName('header')[0];
+				e_header.style.position = '';
+				e_content = document.getElementsByClassName('content')[0];
+				e_content.style.marginTop = "0";
+				hideme('block');				
 			}		
 	</script>	
 	<script src="js/cube.js"></script>
