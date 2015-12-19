@@ -48,7 +48,7 @@
 				<h2 id="soft">Softwares</h2>
 				<?php include 'images/cube.svg'; ?>
 			</div>
-			<footer id="footer_home">
+			<footer id="footer">
 				<strong>
 					<a class="footer_items"><span class="cc">c </span>ncubeschool.org &nbsp &nbsp</a>
 					<a href="about.php" class="footer_items">About Us &nbsp &nbsp</a>

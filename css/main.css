@@ -1,7 +1,10 @@
 html, body {
 	margin:0;
 	padding:0;
-	font-family: 'ARS Maquette';
+	overflow-y: hidden;
+	width: 100%;
+	height: 100%;
+	font-family: 'ARS Maquette';	
 }
 
 a {
@@ -11,9 +14,10 @@ a {
 
 .header {
 	width: 100%;
-	z-index: 100;	
+	z-index: 100;
 	background-color: white;
 	min-height: 85px;
+	position: fixed;
 }
 
 #logo {
@@ -73,17 +77,7 @@ a {
 	text-align: center;
 	width: 100%;
 	font-family: 'ubuntu light';
-	bottom: 0px;	
-}
-
-#footer_home {
-	background-color: #352f2f;	
-	height: 32px;
-	padding-top: 10px;
-	position: fixed;	
-	text-align: center;
-	width: 100%;
-	font-family: 'ubuntu light';
+	position: fixed;
 	bottom: 0px;
 }
 
@@ -110,13 +104,17 @@ a {
 }
 
 .content {
-	width: 100%;
-	height: auto;	
+	min-width: 100%;	
+	min-height: 100% !important;
+	height: 100%;
 	margin: 0px auto;
-	margin-bottom: 0px;
-	overflow: hidden;
-	background-color: #DE5833;
-	padding-bottom: 50px;	
+	float: left;
+	background-color: #DE5833;	
+	vertical-align: bottom;
+	padding-top: 90px;
+	white-space: nowrap;
+	overflow-y: hidden;
+	padding-left: 20px;
 }
 
 .heading {
@@ -126,9 +124,13 @@ a {
 }
 
 .main_content {
-	margin-left: 50px;
-	margin-right: 50px;
-	color: white;
+	display: inline-block;
+	width: 500px;
+	height: 99%;
+	white-space: normal;
+	color: white;	
+	overflow: hidden;
+	padding-right: 30px;
 }
 
 .underline:hover {
