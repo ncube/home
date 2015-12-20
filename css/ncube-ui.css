@@ -1,0 +1,94 @@
+.blue {
+	color: #4286F3;
+}
+
+.red {
+	color: #DE5833;
+}
+
+.green {
+	color: #5aca00;
+}
+
+.btn-blue {
+	background-color: #4286F3;
+}
+
+.btn-red {
+	background-color: #DE5833;
+}
+
+.btn-green {
+	background-color: #5aca00;
+}
+
+.btn {	
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;    
+    margin-bottom: 0;    
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;	
+	border: 0;
+	color: white;
+	font-family: 'ARS Maquette';
+}
+
+.btn-small {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+
+.btn-medium {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 8px 15px;
+}
+
+.btn-large {
+    font-size: 19px;
+    font-weight: 700;
+    padding: 10px 17px;
+}
+
+.form {
+	margin-top: 20px;
+	border: 0;
+	background-color: whitesmoke;
+	height: 35px;
+	width: 100%;
+	padding: 5px;
+	padding-left: 15px;
+	padding-bottom: 2px;
+	font-size: 16px;
+	color: black;
+	font-family: 'ubuntu medium';
+}
+
+.form-text {
+	margin-top: 20px;
+	border: 0;
+	background-color: whitesmoke;
+	height: 170px;
+	width: 100%;
+	padding: 5px;
+	padding-left: 15px;
+	padding-bottom: 2px;
+	font-size: 16px;
+	color: black;
+	font-family: 'ubuntu medium';
+}
+
+.form-blue:focus {
+	border-bottom: 3px solid #4286F3;
+}
+
+.form-red:focus {
+	border-bottom: 3px solid #DE5833;
+}
+
+.form-green:focus {
+	border-bottom: 3px solid #5aca00;
+}

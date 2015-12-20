@@ -49,3 +49,8 @@
     font-style: normal;    
     src: url("../fonts/ubuntu/Ubuntu-L.ttf") format("truetype");
     }
+@font-face {
+    font-family: "ubuntu medium";
+    font-style: normal;    
+    src: url("../fonts/ubuntu/Ubuntu-M.ttf") format("truetype");
+    }

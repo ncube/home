@@ -10,3 +10,6 @@ function showme(e_id) {
 function c_showme(e_id) {
 	document.getElementsByClassName(e_id)[0].style.display = 'block';
 }
+function colorme(id, color) {
+	document.getElementById(id).style.backgroundColor = color;
+}

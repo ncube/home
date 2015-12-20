@@ -96,15 +96,15 @@
 				<ul><a href="#">Why we should not keep exams to students</a></ul>
 			</div>
 		</div>
-			<footer id="footer">
-				<strong>
-					<a class="footer_items"><span class="cc">c </span>ncubeschool.org &nbsp &nbsp</a>
-					<a href="about.php" class="footer_items">About Us &nbsp &nbsp</a>
-					<a href="#" class="footer_items">Open Source &nbsp &nbsp</a>
-					<a href="#" class="footer_items">Developers &nbsp &nbsp</a>
-					<a href="#" class="footer_items">Privacy </a>
-				</strong>
-			</footer>
+		<footer id="footer">
+			<strong>
+				<a class="footer_items"><span class="cc">c </span>ncubeschool.org &nbsp &nbsp</a>
+				<a href="about.php" class="footer_items">About Us &nbsp &nbsp</a>
+				<a href="#" class="footer_items">Open Source &nbsp &nbsp</a>
+				<a href="#" class="footer_items">Developers &nbsp &nbsp</a>
+				<a href="#" class="footer_items">Privacy </a>
+			</strong>
+		</footer>
 	</body>
 	<!--For Pre-Loader	-->
 	<script>document.getElementById('body').style.display = 'none';</script>

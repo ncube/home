@@ -136,3 +136,103 @@ a {
 .underline:hover {
 	text-decoration: underline;
 }
+
+#edu_form {
+	position: absolute;
+	width: 300px;
+	height: auto;
+	overflow: hidden;
+	margin-top: -20px;
+	margin-left: -400px;
+	display: none;
+}
+
+.e_edu_pos {
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+}
+
+#com_form {
+	position: absolute;
+	width: 350px;
+	height: auto;
+	overflow: hidden;
+	margin-top: -40px;
+	margin-left: -400px;
+	display: none;
+}
+
+.e_com_pos {
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+	width: 30%;
+}
+
+#soft_form {
+	position: absolute;
+	width: 350px;
+	height: auto;
+	overflow: hidden;
+	margin-top: -40px;
+	margin-left: -400px;
+	display: none;
+}
+
+#pedu {
+	position: absolute;
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 400px;
+	font-family: 'ubuntu medium';
+	font-size: 17px;
+	display: none;
+}
+
+#hedu {
+	position: absolute;
+	width: 300px;
+	margin-left: 400px;	
+	font-family: 'ubuntu medium';
+	font-size: 17px;
+	display: none;
+}
+
+#pcom {
+	position: absolute;
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 400px;
+	font-family: 'ubuntu medium';
+	font-size: 17px;
+	display: none;
+}
+
+#hcom {
+	position: absolute;
+	width: 300px;
+	margin-left: 400px;	
+	font-family: 'ubuntu medium';
+	font-size: 17px;
+	display: none;
+}
+
+#psoft {
+	position: absolute;
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 400px;
+	font-family: 'ubuntu medium';
+	font-size: 17px;
+	display: none;
+}
+
+#hsoft {
+	position: absolute;
+	width: 300px;
+	margin-left: 400px;	
+	font-family: 'ubuntu medium';
+	font-size: 17px;
+	display: none;
+}
